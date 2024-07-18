@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Furniture website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  <!--swiper link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!--font awesome link-->
+    <link rel="stylesheet" href="furniture.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- header section -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fa-solid fa-chair"></i>furniture</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here.....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="i4.jpg" alt="">
+                <div class="content">
+                    <h3>office table</h3>
+                    <span class="price">$80/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="i1.jpg" alt="">
+                <div class="content">
+                    <h3>soffa</h3>
+                    <span class="price">$102/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="i3.jpg" alt="">
+                <div class="content">
+                    <h3>sleeping bed</h3>
+                    <span class="price">$160/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total"> total : $342/-</div>
+            <a href="#" class="btn"> checkout </a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box" autocomplete="username">
+            <input type="password" placeholder="password" class="box" autocomplete="current-password">
+            <p>forget your password ? <a href="#">click here</a></p>
+            <p>new user <a href="#">rigester here</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        
+    </header>
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>The <span>furniture</span> that defines you</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores quod pariatur maiores accusamus, similique totam earum. Rem veritatis, debitis sunt odit eum nisi! Reiciendis voluptates rerum quod labore illo aut.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <!-- features -->
+
+
+    <section class="features" id="features" >
+
+        <h1 class="heading"> our <span>features</span> </h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="fe.jpeg" alt="">
+                <h3>Best furniture at the best price</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, officiis.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="delivery.jpeg" alt="">
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, repellat.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="payment.jpeg" alt="">
+                <h3>easy payment</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, repellat.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <!-- product -->
+
+
+    <section class="products" id="products">
+
+        <h1 class="heading">our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="i2.jpg" alt="">
+                    <h3>red soffa</h3>
+                    <div class="price"> $24.99/- to- 100.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="th (1).jpg" alt="">
+                    <h3>dinning table</h3>
+                    <div class="price"> $18.99/- to- 45.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="1.jpeg" alt="">
+                    <h3>luxury chair</h3>
+                    <div class="price"> $24.99/- to- 50.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="b1.jpeg" alt="">
+                    <h3>soffaa</h3>
+                    <div class="price"> $19.99/- to- 60.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="4.jpeg" alt="">
+                    <h3>soffa chair</h3>
+                    <div class="price"> $25.99/- to- 90.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="5.jpeg" alt="">
+                    <h3>front room accessories</h3>
+                    <div class="price"> $24.99/- to- 100.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="6.jpeg" alt="">
+                    <h3>bathing tub</h3>
+                    <div class="price"> $44.99/- to- 170.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="8.jpeg" alt="">
+                    <h3>white soffa</h3>
+                    <div class="price"> $24.99/- to- 100.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="9.jpeg" alt="">
+                    <h3>masag chair</h3>
+                    <div class="price"> $24.99/- to- 100.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">customer'S <span>review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper ">
+
+                <div class="swiper-slide box">
+                    <img src="r1.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui esse ipsam magni et numquam.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="r3.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui esse ipsam magni et numquam.</p>
+                    <h3>kamaniya josep</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="r2.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui esse ipsam magni et numquam.</p>
+                    <h3>mark henry</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="r4.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui esse ipsam magni et numquam.</p>
+                    <h3>susain</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- bolg section -->
+    
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our<span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="3.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st may,2022</a>
+                    </div>
+                    <h3> strong and well furnished</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid harum atque quos maxime porro! Consequuntur qui quae repudiandae minima.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <img src="2.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st may,2022</a>
+                    </div>
+                    <h3> strong and well furnished</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid harum atque quos maxime porro! Consequuntur qui quae repudiandae minima.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <img src="b2.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st may,2022</a>
+                    </div>
+                    <h3> strong and well furnished</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid harum atque quos maxime porro! Consequuntur qui quae repudiandae minima.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Furniture <i class="fas-fa-shopping-bake"></i></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, voluptates!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+111-222-3333</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>kumarprince51663@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>kolkata, india-400104</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="enter your email..." class="email">
+                <input type="submit" value="subscribe" class="btn"> 
+                <img src="f1.jpeg" class="payment-img" alt="">             
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="furniture.js"></script>
+</body>
+</html>
